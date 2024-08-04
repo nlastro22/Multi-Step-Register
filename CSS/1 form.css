@@ -1,0 +1,124 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: url("../resources/blur-radial.svg");
+  background-color: #121826;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #212936;
+  color: white;
+  width: 30%;
+  height: auto;
+  border: 1px solid #4d5562;
+  padding: 50px;
+  border-radius: 12px;
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+label {
+  color: #a1a1a9;
+  margin-top: 4%;
+  font-size: 0.8em;
+}
+
+input {
+  color: #a1a1a9;
+  border-radius: 10px;
+  padding: 13px;
+  background-color: #212936;
+  border: 2px solid #4d5562;
+  margin: 2% 0 2% 0;
+}
+input::placeholder {
+  color: #4d5562;
+}
+
+button {
+  align-self: center;
+  margin: 4% 0 2% 0;
+  background-color: #845eee;
+  border-radius: 23px;
+  color: white;
+  width: 10em;
+  padding: 2% 2%;
+  border: 1px solid #212936;
+}
+
+button:hover {
+  background-color: #9475ea;
+  cursor: pointer;
+}
+
+.select {
+  background-color: #4d5562;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.clicked {
+  background-color: #845eee;
+}
+.error {
+  color: rgb(206, 15, 15);
+  margin: 4px;
+}
+
+.oznaka {
+  color: #a1a1a9;
+}
+.vrijednost {
+  color: white;
+}
+.topics {
+  color: #a1a1a9;
+  margin-top: 10px;
+}
+
+.steps {
+  margin: 1.5em;
+  font-size: 0.7em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#step {
+  color: #4d5562;
+}
+.dots {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+#dot1,
+#dot2,
+#dot3 {
+  width: 9px;
+  height: 9px;
+  background-color: #845eee; /* Ljubičasta boja */
+  border-radius: 50%;
+  margin-left: 5px;
+  margin: 7px;
+}
+
+.active {
+  background-color: #845eee; /* Aktivna točkica */
+  box-shadow: 0 0 0 5px #845eee4e;
+}
